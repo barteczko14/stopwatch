@@ -65,9 +65,6 @@ const handleStop = () => {
 }
 
 const clearArchive = () => {
-    stopwatch.textContent = "0:00"
-    number =0;
-    seconds = 0;
     minutes = 0;
     timeList.innerHTML = '';
 }
